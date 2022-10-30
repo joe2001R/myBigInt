@@ -1,0 +1,597 @@
+Start testing: Oct 30 22:50 EET
+----------------------------------------------------------
+1/22 Testing: myBigInt.converting_from_dec_to_binary_21
+1/22 Test: myBigInt.converting_from_dec_to_binary_21
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_21" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_dec_to_binary_21" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_21
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_21
+[       OK ] myBigInt.converting_from_dec_to_binary_21 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_21" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_dec_to_binary_21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/22 Testing: myBigInt.converting_from_bin_to_dec_21
+2/22 Test: myBigInt.converting_from_bin_to_dec_21
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_bin_to_dec_21" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_bin_to_dec_21" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_bin_to_dec_21
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_bin_to_dec_21
+[       OK ] myBigInt.converting_from_bin_to_dec_21 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_bin_to_dec_21" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_bin_to_dec_21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/22 Testing: myBigInt.converting_from_dec_to_binary_0
+3/22 Test: myBigInt.converting_from_dec_to_binary_0
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_0" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_dec_to_binary_0" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_0
+[       OK ] myBigInt.converting_from_dec_to_binary_0 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_0" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_dec_to_binary_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/22 Testing: myBigInt.converting_from_bin_to_dec_0
+4/22 Test: myBigInt.converting_from_bin_to_dec_0
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_bin_to_dec_0" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_bin_to_dec_0" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_bin_to_dec_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_bin_to_dec_0
+[       OK ] myBigInt.converting_from_bin_to_dec_0 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_bin_to_dec_0" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_bin_to_dec_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/22 Testing: myBigInt.converting_from_dec_to_binary_32
+5/22 Test: myBigInt.converting_from_dec_to_binary_32
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_32" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_dec_to_binary_32" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_32
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_32
+[       OK ] myBigInt.converting_from_dec_to_binary_32 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_32" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_dec_to_binary_32" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/22 Testing: myBigInt.converting_from_bin_to_dec_32
+6/22 Test: myBigInt.converting_from_bin_to_dec_32
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_bin_to_dec_32" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_bin_to_dec_32" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_bin_to_dec_32
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_bin_to_dec_32
+[       OK ] myBigInt.converting_from_bin_to_dec_32 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_bin_to_dec_32" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_bin_to_dec_32" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/22 Testing: myBigInt.converting_from_dec_to_binary_7413
+7/22 Test: myBigInt.converting_from_dec_to_binary_7413
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_7413" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_dec_to_binary_7413" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_7413
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_7413
+[       OK ] myBigInt.converting_from_dec_to_binary_7413 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_7413" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_dec_to_binary_7413" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/22 Testing: myBigInt.converting_from_bin_to_dec_7413
+8/22 Test: myBigInt.converting_from_bin_to_dec_7413
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_bin_to_dec_7413" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_from_bin_to_dec_7413" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_bin_to_dec_7413
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_bin_to_dec_7413
+[       OK ] myBigInt.converting_from_bin_to_dec_7413 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_bin_to_dec_7413" end time: Oct 30 22:50 EET
+"myBigInt.converting_from_bin_to_dec_7413" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/22 Testing: myBigInt.converting_bin_string_to_vec_string
+9/22 Test: myBigInt.converting_bin_string_to_vec_string
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_bin_string_to_vec_string" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.converting_bin_string_to_vec_string" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_bin_string_to_vec_string
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_bin_string_to_vec_string
+[       OK ] myBigInt.converting_bin_string_to_vec_string (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_bin_string_to_vec_string" end time: Oct 30 22:50 EET
+"myBigInt.converting_bin_string_to_vec_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/22 Testing: myBigInt.add_two_small_numbers
+10/22 Test: myBigInt.add_two_small_numbers
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.add_two_small_numbers" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.add_two_small_numbers" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.add_two_small_numbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.add_two_small_numbers
+[       OK ] myBigInt.add_two_small_numbers (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.add_two_small_numbers" end time: Oct 30 22:50 EET
+"myBigInt.add_two_small_numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/22 Testing: myBigInt.add_two_big_numbers
+11/22 Test: myBigInt.add_two_big_numbers
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.add_two_big_numbers" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.add_two_big_numbers" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.add_two_big_numbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.add_two_big_numbers
+[       OK ] myBigInt.add_two_big_numbers (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.add_two_big_numbers" end time: Oct 30 22:50 EET
+"myBigInt.add_two_big_numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/22 Testing: myBigInt.adding_zero_to_a_number
+12/22 Test: myBigInt.adding_zero_to_a_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_zero_to_a_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_zero_to_a_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_zero_to_a_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_zero_to_a_number
+[       OK ] myBigInt.adding_zero_to_a_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_zero_to_a_number" end time: Oct 30 22:50 EET
+"myBigInt.adding_zero_to_a_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/22 Testing: myBigInt.adding_a_small_negative_number_to_a_positive_number
+13/22 Test: myBigInt.adding_a_small_negative_number_to_a_positive_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_a_small_negative_number_to_a_positive_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_a_small_negative_number_to_a_positive_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_a_small_negative_number_to_a_positive_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_a_small_negative_number_to_a_positive_number
+[       OK ] myBigInt.adding_a_small_negative_number_to_a_positive_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_a_small_negative_number_to_a_positive_number" end time: Oct 30 22:50 EET
+"myBigInt.adding_a_small_negative_number_to_a_positive_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/22 Testing: myBigInt.adding_a_big_negative_number_to_a_positive_number
+14/22 Test: myBigInt.adding_a_big_negative_number_to_a_positive_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_a_big_negative_number_to_a_positive_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_a_big_negative_number_to_a_positive_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_a_big_negative_number_to_a_positive_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_a_big_negative_number_to_a_positive_number
+[       OK ] myBigInt.adding_a_big_negative_number_to_a_positive_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_a_big_negative_number_to_a_positive_number" end time: Oct 30 22:50 EET
+"myBigInt.adding_a_big_negative_number_to_a_positive_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/22 Testing: myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size
+15/22 Test: myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size
+[       OK ] myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size" end time: Oct 30 22:50 EET
+"myBigInt.adding_a_negative_number_to_a_positive_number_of_same_size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/22 Testing: myBigInt.substracting_same_number
+16/22 Test: myBigInt.substracting_same_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.substracting_same_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.substracting_same_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.substracting_same_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.substracting_same_number
+[       OK ] myBigInt.substracting_same_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.substracting_same_number" end time: Oct 30 22:50 EET
+"myBigInt.substracting_same_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/22 Testing: myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size
+17/22 Test: myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size
+[       OK ] myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size" end time: Oct 30 22:50 EET
+"myBigInt.adding_a_positive_number_to_a_negative_number_of_same_size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/22 Testing: myBigInt.adding_a_small_positive_number_to_a_negative_number
+18/22 Test: myBigInt.adding_a_small_positive_number_to_a_negative_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_a_small_positive_number_to_a_negative_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_a_small_positive_number_to_a_negative_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_a_small_positive_number_to_a_negative_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_a_small_positive_number_to_a_negative_number
+[       OK ] myBigInt.adding_a_small_positive_number_to_a_negative_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_a_small_positive_number_to_a_negative_number" end time: Oct 30 22:50 EET
+"myBigInt.adding_a_small_positive_number_to_a_negative_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/22 Testing: myBigInt.adding_a_big_positive_number_to_a_negative_number
+19/22 Test: myBigInt.adding_a_big_positive_number_to_a_negative_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.adding_a_big_positive_number_to_a_negative_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.adding_a_big_positive_number_to_a_negative_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.adding_a_big_positive_number_to_a_negative_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.adding_a_big_positive_number_to_a_negative_number
+[       OK ] myBigInt.adding_a_big_positive_number_to_a_negative_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.adding_a_big_positive_number_to_a_negative_number" end time: Oct 30 22:50 EET
+"myBigInt.adding_a_big_positive_number_to_a_negative_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/22 Testing: myBigInt.negating_a_positive_number
+20/22 Test: myBigInt.negating_a_positive_number
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.negating_a_positive_number" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.negating_a_positive_number" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.negating_a_positive_number
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.negating_a_positive_number
+[       OK ] myBigInt.negating_a_positive_number (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.negating_a_positive_number" end time: Oct 30 22:50 EET
+"myBigInt.negating_a_positive_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/22 Testing: myBigInt.negating_a_positive_number_twice
+21/22 Test: myBigInt.negating_a_positive_number_twice
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.negating_a_positive_number_twice" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.negating_a_positive_number_twice" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.negating_a_positive_number_twice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.negating_a_positive_number_twice
+[       OK ] myBigInt.negating_a_positive_number_twice (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.negating_a_positive_number_twice" end time: Oct 30 22:50 EET
+"myBigInt.negating_a_positive_number_twice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/22 Testing: myBigInt.substracting_two_numbers
+22/22 Test: myBigInt.substracting_two_numbers
+Command: "/home/joe/dev/myBigInt/myBigIntUnitTests" "--gtest_filter=myBigInt.substracting_two_numbers" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt
+"myBigInt.substracting_two_numbers" start time: Oct 30 22:50 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.substracting_two_numbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.substracting_two_numbers
+[       OK ] myBigInt.substracting_two_numbers (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.substracting_two_numbers" end time: Oct 30 22:50 EET
+"myBigInt.substracting_two_numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 30 22:50 EET

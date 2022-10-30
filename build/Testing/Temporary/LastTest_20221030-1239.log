@@ -1,0 +1,174 @@
+Start testing: Oct 30 14:39 EET
+----------------------------------------------------------
+1/6 Testing: myBigInt.converting_from_dec_to_binary_21
+1/6 Test: myBigInt.converting_from_dec_to_binary_21
+Command: "/home/joe/dev/myBigInt/build/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_21" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt/build
+"myBigInt.converting_from_dec_to_binary_21" start time: Oct 30 14:39 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_21
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_21
+[       OK ] myBigInt.converting_from_dec_to_binary_21 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_21" end time: Oct 30 14:39 EET
+"myBigInt.converting_from_dec_to_binary_21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: myBigInt.converting_from_dec_to_binary_0
+2/6 Test: myBigInt.converting_from_dec_to_binary_0
+Command: "/home/joe/dev/myBigInt/build/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_0" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt/build
+"myBigInt.converting_from_dec_to_binary_0" start time: Oct 30 14:39 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_0
+[       OK ] myBigInt.converting_from_dec_to_binary_0 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_0" end time: Oct 30 14:39 EET
+"myBigInt.converting_from_dec_to_binary_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: myBigInt.converting_from_dec_to_binary_32
+3/6 Test: myBigInt.converting_from_dec_to_binary_32
+Command: "/home/joe/dev/myBigInt/build/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_32" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt/build
+"myBigInt.converting_from_dec_to_binary_32" start time: Oct 30 14:39 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_32
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_32
+[       OK ] myBigInt.converting_from_dec_to_binary_32 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_32" end time: Oct 30 14:39 EET
+"myBigInt.converting_from_dec_to_binary_32" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: myBigInt.converting_from_dec_to_binary_7413
+4/6 Test: myBigInt.converting_from_dec_to_binary_7413
+Command: "/home/joe/dev/myBigInt/build/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_from_dec_to_binary_7413" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt/build
+"myBigInt.converting_from_dec_to_binary_7413" start time: Oct 30 14:39 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_from_dec_to_binary_7413
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_from_dec_to_binary_7413
+[       OK ] myBigInt.converting_from_dec_to_binary_7413 (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.converting_from_dec_to_binary_7413" end time: Oct 30 14:39 EET
+"myBigInt.converting_from_dec_to_binary_7413" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: myBigInt.converting_bin_string_to_vec_string
+5/6 Test: myBigInt.converting_bin_string_to_vec_string
+Command: "/home/joe/dev/myBigInt/build/myBigIntUnitTests" "--gtest_filter=myBigInt.converting_bin_string_to_vec_string" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt/build
+"myBigInt.converting_bin_string_to_vec_string" start time: Oct 30 14:39 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.converting_bin_string_to_vec_string
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.converting_bin_string_to_vec_string
+/home/joe/dev/myBigInt/myBigIntTests.cpp:29: Failure
+Expected equality of these values:
+  7413
+  binStringToBinVec("1110011110101")[0]
+    Which is: 1909547733
+[  FAILED  ] myBigInt.converting_bin_string_to_vec_string (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] myBigInt.converting_bin_string_to_vec_string
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"myBigInt.converting_bin_string_to_vec_string" end time: Oct 30 14:39 EET
+"myBigInt.converting_bin_string_to_vec_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: myBigInt.add_two_numbers
+6/6 Test: myBigInt.add_two_numbers
+Command: "/home/joe/dev/myBigInt/build/myBigIntUnitTests" "--gtest_filter=myBigInt.add_two_numbers" "--gtest_also_run_disabled_tests"
+Directory: /home/joe/dev/myBigInt/build
+"myBigInt.add_two_numbers" start time: Oct 30 14:39 EET
+Output:
+----------------------------------------------------------
+Running main() from /home/joe/dev/myBigInt/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = myBigInt.add_two_numbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from myBigInt
+[ RUN      ] myBigInt.add_two_numbers
+[       OK ] myBigInt.add_two_numbers (0 ms)
+[----------] 1 test from myBigInt (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"myBigInt.add_two_numbers" end time: Oct 30 14:39 EET
+"myBigInt.add_two_numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 30 14:39 EET

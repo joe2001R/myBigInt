@@ -1,0 +1,196 @@
+#include <gtest/gtest.h>
+
+#include <sstream>
+
+
+#include <myBigInt.h>
+
+using namespace mybigint;
+
+TEST(myBigInt, converting_from_dec_to_binary_21)
+{
+    EXPECT_EQ("10101",DecToBinConverter("21"));
+}
+
+TEST(myBigInt, converting_from_bin_to_dec_21)
+{
+    EXPECT_EQ("21", BinToDecConverter("10101"));
+}
+
+TEST(myBigInt, converting_from_dec_to_binary_0)
+{
+    EXPECT_EQ("0", DecToBinConverter("0"));
+}
+
+TEST(myBigInt, converting_from_bin_to_dec_0)
+{
+    EXPECT_EQ("0", DecToBinConverter("0"));
+}
+
+TEST(myBigInt, converting_from_dec_to_binary_32)
+{
+    EXPECT_EQ("100000", DecToBinConverter("32"));
+}
+
+TEST(myBigInt, converting_from_bin_to_dec_32)
+{
+    EXPECT_EQ("32", BinToDecConverter("100000"));
+}
+
+TEST(myBigInt, converting_from_dec_to_binary_7413)
+{
+    EXPECT_EQ("1110011110101", DecToBinConverter("7413"));
+}
+
+TEST(myBigInt, converting_from_bin_to_dec_7413)
+{
+    EXPECT_EQ("7413", BinToDecConverter("1110011110101"));
+}
+
+TEST(myBigInt, converting_bin_string_to_vec_string)
+{
+    EXPECT_EQ(7413, binStringToBinVec("1110011110101")[0]);
+}
+
+TEST(myBigInt,add_two_small_numbers)
+{
+    std::ostringstream ss;
+
+    BigInt a{"42"};
+    BigInt b{"8"};
+    a+=b;
+    ss<<a;
+
+    EXPECT_EQ("50",ss.str());
+}
+
+TEST(myBigInt, add_two_big_numbers)
+{
+    std::ostringstream ss;
+
+    BigInt a{"40030133113"};
+    BigInt b{"41341341341323"};
+    ss << (a+b);
+
+    EXPECT_EQ("41381371474436", ss.str());
+}
+
+TEST(myBigInt, adding_zero_to_a_number)
+{
+    std::ostringstream ss;
+
+    BigInt a{"134"};
+    BigInt b;
+    ss << (a + b);
+
+    EXPECT_EQ("134", ss.str());
+}
+
+TEST(myBigInt, adding_a_small_negative_number_to_a_positive_number)
+{
+    std::ostringstream ss;
+
+    BigInt a{"134"};
+    BigInt b{"-3"};
+    ss << (a + b);
+
+    EXPECT_EQ("131", ss.str());
+}
+
+TEST(myBigInt, adding_a_big_negative_number_to_a_positive_number)
+{
+    std::ostringstream ss;
+
+    BigInt a{"124"};
+    BigInt b{"-140"};
+    ss << (a + b);
+
+    EXPECT_EQ("-16", ss.str());
+}
+
+TEST(myBigInt, adding_a_negative_number_to_a_positive_number_of_same_size)
+{
+    std::ostringstream ss;
+
+    BigInt a{"134"};
+    BigInt b{"-140"};
+    ss << (a + b);
+
+    EXPECT_EQ("-6", ss.str());
+}
+
+TEST(myBigInt, substracting_same_number)
+{
+    std::ostringstream ss;
+
+    BigInt a{"140"};
+    BigInt b{"-140"};
+    ss << (a + b);
+
+    EXPECT_EQ("0", ss.str());
+}
+
+TEST(myBigInt, adding_a_positive_number_to_a_negative_number_of_same_size)
+{
+    std::ostringstream ss;
+
+    BigInt a{"134"};
+    BigInt b{"-140"};
+    ss << (b + a);
+
+    EXPECT_EQ("-6", ss.str());
+}
+
+TEST(myBigInt, adding_a_small_positive_number_to_a_negative_number)
+{
+    std::ostringstream ss;
+
+    BigInt a{"124"};
+    BigInt b{"-140"};
+    ss << (a + b);
+
+    EXPECT_EQ("-16", ss.str());
+}
+
+TEST(myBigInt, adding_a_big_positive_number_to_a_negative_number)
+{
+    std::ostringstream ss;
+
+    BigInt a{"134"};
+    BigInt b{"-3"};
+    ss << (b + a);
+
+    EXPECT_EQ("131", ss.str());
+}
+
+TEST(myBigInt, negating_a_positive_number)
+{
+    std::ostringstream ss;
+    BigInt a{"431"};
+    ss << -a;
+
+    EXPECT_EQ("-431", ss.str());
+}
+
+TEST(myBigInt, negating_a_positive_number_twice)
+{
+    std::ostringstream ss;
+
+    BigInt a{"431"};
+    ss << -(-a);
+
+    EXPECT_EQ("431", ss.str());
+}
+
+TEST(myBigInt, substracting_two_numbers)
+{
+    std::ostringstream ss;
+
+    BigInt a{"934"};
+    BigInt b{"34"};
+
+    auto r=a-b;
+    ss << r;
+
+    EXPECT_EQ("900",ss.str());
+}
