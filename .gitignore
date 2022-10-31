@@ -1,0 +1,7 @@
+*
+!.gitignore
+!myBigInt.h
+!myBigInt.cpp
+!CMakeLists.txt
+!mybigint.a
+!myBigIntTests.cpp
