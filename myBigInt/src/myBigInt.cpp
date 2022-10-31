@@ -269,6 +269,31 @@ namespace mybigint
         return *this;
     }
 
+    BigInt& BigInt::operator*=(const BigInt& rop)
+    {
+        BigInt temp{};
+        BigInt out{};
+
+        for(int i=0; i < my_number.size() ;i++)
+        {
+            if(my_number[i]=='0')
+            {
+                continue;
+            }
+            
+            temp.my_number = std::string(i,'0');
+            temp.my_number += rop.my_number;
+            
+            out+=temp;
+        }
+
+        out.is_negative = this->isNegative() ^ rop.isNegative();
+
+        *this=std::move(out);
+        
+        return *this;
+    }
+
     std::string BigInt::getNumber() const
     {
         auto res = my_number;
@@ -282,6 +307,13 @@ namespace mybigint
         out << (bint.isNegative()?"-":"") << BinToDecConverter(bint.getNumber());
         
         return out;
+    }
+
+    BigInt operator*(const BigInt &lo, const BigInt &ro)
+    {
+        BigInt temp{lo};
+
+        return temp*=ro;
     }
 
     BigInt::BigInt(const std::string& integer) : my_number{integer}

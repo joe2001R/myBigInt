@@ -22,6 +22,7 @@ namespace mybigint
         std::string getNumber() const;
 
         BigInt& operator+=(const BigInt& rop);
+        BigInt& operator*=(const BigInt& rop);
         BigInt& operator-();
 
         private:
@@ -32,6 +33,7 @@ namespace mybigint
 
     BigInt operator+(const BigInt& lo, const BigInt& ro);
     BigInt operator-(const BigInt& lo,const BigInt& ro);
+    BigInt operator*(const BigInt& lo, const BigInt& ro);
     
     BigInt operator-(const BigInt& op);
 

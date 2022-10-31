@@ -194,3 +194,43 @@ TEST(myBigInt, substracting_two_numbers)
 
     EXPECT_EQ("900",ss.str());
 }
+
+TEST(myBigInt, multiplying_two_positive_numbers)
+{
+    std::ostringstream ss;
+
+    BigInt a{"9"};
+    BigInt b{"6"};
+
+    a*=b;
+
+    ss << a;
+
+    EXPECT_EQ("54", ss.str());
+}
+
+TEST(myBigInt, multiplying_two_negative_numbers)
+{
+    std::ostringstream ss;
+
+    BigInt a{"-9"};
+    BigInt b{"-6"};
+
+    a *= b;
+
+    ss << a;
+
+    EXPECT_EQ("54", ss.str());
+}
+
+TEST(myBigInt, multiplying_two_numbers_of_opposite_sign)
+{
+    std::ostringstream ss;
+
+    BigInt a{"-1514131211"};
+    BigInt b{"12131415"};
+
+    ss << a * b;
+
+    EXPECT_EQ("-18368554085093565", ss.str());
+}
