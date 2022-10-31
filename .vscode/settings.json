@@ -27,5 +27,6 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "testMate.cpp.test.executables": "myBigIntUnitTests"
 }
