@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/myBigIntUnitTests.dir/myBigIntTests.cpp.o -o myBigIntUnitTests  myBigInt/libmybigint.a lib/libgtest_main.a lib/libgtest.a -lpthread 

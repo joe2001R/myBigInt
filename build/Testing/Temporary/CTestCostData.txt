@@ -1,8 +1,0 @@
-myBigInt.converting_from_dec_to_binary_21 1 0.0043449
-myBigInt.converting_from_dec_to_binary_0 1 0.0040733
-myBigInt.converting_from_dec_to_binary_32 1 0.0039654
-myBigInt.converting_from_dec_to_binary_7413 1 0.003944
-myBigInt.converting_bin_string_to_vec_string 0 0
-myBigInt.add_two_numbers 1 0.0047829
----
-myBigInt.converting_bin_string_to_vec_string

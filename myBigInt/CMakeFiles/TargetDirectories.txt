@@ -1,3 +1,0 @@
-/home/joe/dev/myBigInt/myBigInt/CMakeFiles/mybigint.dir
-/home/joe/dev/myBigInt/myBigInt/CMakeFiles/edit_cache.dir
-/home/joe/dev/myBigInt/myBigInt/CMakeFiles/rebuild_cache.dir

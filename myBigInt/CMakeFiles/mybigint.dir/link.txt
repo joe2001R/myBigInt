@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmybigint.a CMakeFiles/mybigint.dir/src/myBigInt.cpp.o
-/usr/bin/ranlib libmybigint.a

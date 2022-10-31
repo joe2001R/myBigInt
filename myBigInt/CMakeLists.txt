@@ -24,3 +24,8 @@ target_sources(mybigint PRIVATE
 target_include_directories( mybigint PUBLIC
 "${myBigInt_INCLUDE_DIR}"
 )
+
+add_custom_command(
+    TARGET mybigint POST_BUILD
+    COMMAND cp "$<TARGET_FILE:mybigint>" "../out/mybigint.a"
+)
