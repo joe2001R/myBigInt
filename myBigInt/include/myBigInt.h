@@ -28,6 +28,8 @@ namespace mybigint
         private:
         std::string my_number{"0"};
         bool is_negative{false};
+
+        friend BigInt slowMult(const std::string& lop, const std::string& rop);
     };
     
 

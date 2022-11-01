@@ -268,24 +268,32 @@ namespace mybigint
 
         return *this;
     }
-
-    BigInt& BigInt::operator*=(const BigInt& rop)
+    
+    BigInt slowMult(const std::string& lop, const std::string& rop)
     {
         BigInt temp{};
         BigInt out{};
 
-        for(int i=0; i < my_number.size() ;i++)
+        for (int i = 0; i < lop.size(); i++)
         {
-            if(my_number[i]=='0')
+            if (lop[i] == '0')
             {
                 continue;
             }
-            
-            temp.my_number = std::string(i,'0');
-            temp.my_number += rop.my_number;
-            
-            out+=temp;
+
+            temp.my_number = std::string(i, '0');
+            temp.my_number += rop;
+
+            out += temp;
         }
+
+        return out;
+    }
+
+    BigInt& BigInt::operator*=(const BigInt& rop)
+    {
+
+        BigInt out = slowMult(this->my_number,rop.my_number);
 
         out.is_negative = this->isNegative() ^ rop.isNegative();
 
