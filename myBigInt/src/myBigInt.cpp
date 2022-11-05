@@ -4,7 +4,7 @@
 
 namespace
 {
-    const size_t BRANCH_FACTOR{32};
+    const size_t BRANCH_FACTOR{64};
     static_assert(sizeof(uint32_t)==4);
     std::string trimLeadingZeroes(const std::string& string)
     {
