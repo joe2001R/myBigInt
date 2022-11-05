@@ -4,6 +4,7 @@
 
 namespace
 {
+    const size_t BRANCH_FACTOR{32};
     static_assert(sizeof(uint32_t)==4);
     std::string trimLeadingZeroes(const std::string& string)
     {
@@ -326,7 +327,7 @@ namespace mybigint
     BigInt& BigInt::operator*=(const BigInt& rop)
     {
 
-        if(std::min(this->my_number.size(),rop.my_number.size()) < 32ull)
+        if(std::min(this->my_number.size(),rop.my_number.size()) < BRANCH_FACTOR)
         {
             BigInt out = slowMult(this->my_number, rop.my_number);
 
