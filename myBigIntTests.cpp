@@ -234,3 +234,91 @@ TEST(myBigInt, multiplying_two_numbers_of_opposite_sign)
 
     EXPECT_EQ("-18368554085093565", ss.str());
 }
+
+TEST(myBigInt, left_shifting_2_by_2)
+{
+    std::ostringstream ss;
+
+    BigInt a{"2"};
+
+    ss << (a << 2);
+
+    EXPECT_EQ("8", ss.str());
+}
+
+TEST(myBigInt, right_shifting_16_by_2)
+{
+    std::ostringstream ss;
+
+    BigInt a{"16"};
+
+    ss << (a >> 2);
+
+    EXPECT_EQ("4", ss.str());
+}
+
+TEST(myBigInt, right_shifting_16_by_5)
+{
+    std::ostringstream ss;
+
+    BigInt a{"16"};
+
+    ss << (a >> 5);
+
+    EXPECT_EQ("0", ss.str());
+}
+
+TEST(myBigInt, right_shifting_16_by_4)
+{
+    std::ostringstream ss;
+
+    BigInt a{"16"};
+
+    ss << (a >> 4);
+
+    EXPECT_EQ("1", ss.str());
+}
+
+TEST(myBigInt, spliting_32_into_two_2_equal_halves)
+{
+    std::ostringstream ss;
+
+    BigInt a{"32"};
+
+    auto pair= splitIntoTwoParts(a,3);
+
+    ss << pair.first;
+    EXPECT_EQ("4", ss.str());
+    ss.str(std::string{});
+
+    ss<<pair.second;
+    EXPECT_EQ("0",ss.str());
+}
+
+TEST(myBigInt, spliting_4_into_two_halves)
+{
+    std::ostringstream ss;
+
+    BigInt a{"4"};
+
+    auto pair = splitIntoTwoParts(a, 2);
+
+    ss << pair.first;
+    EXPECT_EQ("1", ss.str());
+    ss.str(std::string{});
+
+    ss << pair.second;
+    EXPECT_EQ("0", ss.str());
+}
+
+TEST(myBigInt, multiplying_two_huge_numbers_of_opposite_sign)
+{
+    std::ostringstream ss;
+
+    BigInt a{"-1514131211452451234515145143"};
+    BigInt b{"12131415524525252451343511"};
+
+    ss << a * b;
+
+    EXPECT_EQ("-18368554884782494624721116408367698691001027516217073", ss.str());
+}

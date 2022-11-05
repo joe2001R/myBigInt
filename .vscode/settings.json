@@ -28,5 +28,6 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "testMate.cpp.test.executables": "myBigIntUnitTests"
+  "testMate.cpp.test.executables": "myBigIntUnitTests",
+  "cmake.configureOnOpen": true
 }

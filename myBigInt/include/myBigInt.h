@@ -25,14 +25,18 @@ namespace mybigint
         BigInt& operator*=(const BigInt& rop);
         BigInt& operator-();
 
+        BigInt operator<<(size_t shiftAmount) const;
+        BigInt operator>>(size_t shiftAmount) const;
+
         private:
         std::string my_number{"0"};
         bool is_negative{false};
 
         friend BigInt slowMult(const std::string& lop, const std::string& rop);
+        friend std::pair<BigInt,BigInt> splitIntoTwoParts(const BigInt& num, size_t lowerPartSize);
     };
     
-
+    bool isNull(const BigInt& op);
     BigInt operator+(const BigInt& lo, const BigInt& ro);
     BigInt operator-(const BigInt& lo,const BigInt& ro);
     BigInt operator*(const BigInt& lo, const BigInt& ro);

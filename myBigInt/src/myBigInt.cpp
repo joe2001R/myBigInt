@@ -269,7 +269,7 @@ namespace mybigint
         return *this;
     }
     
-    BigInt slowMult(const std::string& lop, const std::string& rop)
+    BigInt slowMult(const std::string& lop, const std::string& rop) 
     {
         BigInt temp{};
         BigInt out{};
@@ -290,16 +290,85 @@ namespace mybigint
         return out;
     }
 
+
+    BigInt BigInt::operator<<(size_t shiftAmount) const
+    {
+        if(isNull(*this))
+        {
+            return {};
+        }
+
+        BigInt temp{*this};
+
+        temp.my_number= std::string(shiftAmount,'0') + temp.my_number;
+
+        return temp;
+    }
+
+    BigInt BigInt::operator>>(size_t shiftAmount) const
+    {
+        if(isNull(*this))
+        {
+            return {};
+        }
+
+        if(shiftAmount >= my_number.size() )
+        {
+            return {};
+        }
+
+        BigInt temp{*this};
+
+        temp.my_number = temp.my_number.substr(shiftAmount);
+
+        return temp;
+    }
     BigInt& BigInt::operator*=(const BigInt& rop)
     {
 
-        BigInt out = slowMult(this->my_number,rop.my_number);
+        if(std::min(this->my_number.size(),rop.my_number.size()) < 4ull)
+        {
+            BigInt out = slowMult(this->my_number, rop.my_number);
 
-        out.is_negative = this->isNegative() ^ rop.isNegative();
+            out.is_negative = this->isNegative() ^ rop.isNegative();
 
-        *this=std::move(out);
-        
+            *this = std::move(out);
+
+            return *this;
+        }
+
+        size_t lowerPartSize = std::max(this->my_number.size(),rop.my_number.size())/2;
+
+        auto upperLowerPairOp1 = splitIntoTwoParts(*this,lowerPartSize); 
+        auto upperLowerPairOp2 = splitIntoTwoParts(rop,lowerPartSize);
+
+        BigInt t=((upperLowerPairOp1.first + upperLowerPairOp1.second)*(upperLowerPairOp2.first * upperLowerPairOp2.second));
+        BigInt upperupper = upperLowerPairOp1.first * upperLowerPairOp2.first;
+        BigInt lowerlower = upperLowerPairOp1.second * upperLowerPairOp2.second;
+
+        BigInt p1 = upperupper << (lowerPartSize * 2);
+        BigInt p2 =  (t - (upperupper + lowerlower))<<lowerPartSize;
+        BigInt p3 = std::move(lowerlower);
+
+        *this = (p1 + p2 + p3);
+
         return *this;
+    }
+
+    bool isNull(const BigInt &op)
+    {
+        return op.getNumber()=="0";
+    }
+
+    std::pair<BigInt, BigInt> splitIntoTwoParts(const BigInt &num, size_t lowerPartSize)
+    {
+        BigInt upper = num >> lowerPartSize;
+
+        BigInt lower{};
+        lower.my_number = trimTrailingZeroes(num.my_number.substr(0,std::min(lowerPartSize,num.my_number.size())));
+        lower.is_negative=num.is_negative;
+
+        return {std::move(upper),std::move(lower)};
     }
 
     std::string BigInt::getNumber() const
