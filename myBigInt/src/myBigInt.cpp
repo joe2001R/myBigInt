@@ -326,7 +326,7 @@ namespace mybigint
     BigInt& BigInt::operator*=(const BigInt& rop)
     {
 
-        if(std::min(this->my_number.size(),rop.my_number.size()) < 4ull)
+        if(std::min(this->my_number.size(),rop.my_number.size()) < 32ull)
         {
             BigInt out = slowMult(this->my_number, rop.my_number);
 
@@ -342,7 +342,7 @@ namespace mybigint
         auto upperLowerPairOp1 = splitIntoTwoParts(*this,lowerPartSize); 
         auto upperLowerPairOp2 = splitIntoTwoParts(rop,lowerPartSize);
 
-        BigInt t=((upperLowerPairOp1.first + upperLowerPairOp1.second)*(upperLowerPairOp2.first * upperLowerPairOp2.second));
+        BigInt t=((upperLowerPairOp1.first + upperLowerPairOp1.second)*(upperLowerPairOp2.first + upperLowerPairOp2.second));
         BigInt upperupper = upperLowerPairOp1.first * upperLowerPairOp2.first;
         BigInt lowerlower = upperLowerPairOp1.second * upperLowerPairOp2.second;
 
