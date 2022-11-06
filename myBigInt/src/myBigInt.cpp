@@ -356,6 +356,86 @@ namespace mybigint
         return *this;
     }
 
+    BigInt& BigInt::operator/=(const BigInt& _rop)
+    {
+        const std::string& strdividend = BinToDecConverter(this->getNumber());
+        
+        BigInt rop {_rop};
+        rop.is_negative=false;
+
+        BigInt rem{};
+        BigInt out{};
+
+        for(int i=0;i < strdividend.size();i++)
+        {
+            rem+={std::string(1,strdividend[i])};
+            
+            if(rem>=rop)
+            {
+                BigInt t{"1"};
+                while((t*rop)<=rem)
+                {
+                    t+={"1"};
+                }
+                t-={"1"};
+                
+                out+=t;
+                rem-=(t*rop);
+            }
+
+            if(i< strdividend.size()-1)
+            {
+            out*={"10"};
+            rem*={"10"};
+            }
+        }
+
+        out.is_negative=(this->isNegative())^(_rop.isNegative());
+
+        *this = std::move(out);
+
+        return *this;
+    }
+
+    BigInt operator/(const BigInt &lo, const BigInt &ro)
+    {
+        BigInt temp{lo};
+
+        return temp/=ro;
+    }
+
+    bool operator==(const BigInt &lo, const BigInt &ro)
+    {
+        return isNull(ro - lo);
+    }
+    
+    bool operator!=(const BigInt &lo, const BigInt &ro)
+    {
+        return !(lo==ro);
+    }
+
+    bool operator>(const BigInt &lo, const BigInt &ro)
+    {
+        BigInt temp { ro - lo };
+        return !isNull(temp)&&(temp).isNegative();
+    }
+
+    bool operator<=(const BigInt &lo, const BigInt &ro)
+    {
+        return !(lo>ro);
+    }
+
+    bool operator<(const BigInt &lo, const BigInt &ro)
+    {
+        BigInt temp{lo-ro};
+        return !isNull(temp)&&(temp).isNegative();
+    }
+
+    bool operator>=(const BigInt &lo, const BigInt &ro)
+    {
+        return !(lo < ro);
+    }
+
     bool isNull(const BigInt &op)
     {
         return op.getNumber()=="0";
@@ -416,6 +496,10 @@ namespace mybigint
     BigInt operator-(const BigInt &lo, const BigInt &ro)
     {
         return lo + (-ro);
+    }
+    BigInt& BigInt::operator-=(const BigInt &rop)
+    {
+        return (*this)+=(-rop);
     }
 
     BigInt operator-(const BigInt &op)

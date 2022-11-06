@@ -22,7 +22,9 @@ namespace mybigint
         std::string getNumber() const;
 
         BigInt& operator+=(const BigInt& rop);
+        BigInt& operator-=(const BigInt& rop);
         BigInt& operator*=(const BigInt& rop);
+        BigInt& operator/=(const BigInt& rop);
         BigInt& operator-();
 
         BigInt operator<<(size_t shiftAmount) const;
@@ -40,8 +42,16 @@ namespace mybigint
     BigInt operator+(const BigInt& lo, const BigInt& ro);
     BigInt operator-(const BigInt& lo,const BigInt& ro);
     BigInt operator*(const BigInt& lo, const BigInt& ro);
-    
+    BigInt operator/(const BigInt &lo, const BigInt &ro);
+
     BigInt operator-(const BigInt& op);
+
+    bool operator==(const BigInt& lo, const BigInt& ro);
+    bool operator!=(const BigInt &lo, const BigInt &ro);
+    bool operator>=(const BigInt &lo, const BigInt &ro);
+    bool operator>(const BigInt &lo, const BigInt &ro);
+    bool operator<=(const BigInt &lo, const BigInt &ro);
+    bool operator<(const BigInt &lo, const BigInt &ro);
 
     std::ostream& operator<<(std::ostream& out, const BigInt& bint);
 }

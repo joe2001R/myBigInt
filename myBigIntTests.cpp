@@ -322,3 +322,58 @@ TEST(myBigInt, multiplying_two_huge_numbers_of_opposite_sign)
 
     EXPECT_EQ("-18368554884782494624721116408367698691001027516217073", ss.str());
 }
+
+TEST(myBigInt, multiplying_by_zero)
+{
+    std::ostringstream ss;
+
+    BigInt a{"20"};
+
+    a *= {"0"};
+
+    ss << a;
+
+    EXPECT_EQ("0", ss.str());
+}
+
+TEST(myBigInt, dividing_two_positive_numbers)
+{
+    std::ostringstream ss;
+
+    BigInt a{"16"};
+    BigInt b{"4"};
+
+    a /= b;
+
+    ss << a;
+
+    EXPECT_EQ("4", ss.str());
+}
+
+TEST(myBigInt, dividing_two_numbers_of_opposite_signs)
+{
+    std::ostringstream ss;
+
+    BigInt a{"-38"};
+    BigInt b{"4"};
+
+    a /= b;
+
+    ss << a;
+
+    EXPECT_EQ("-9", ss.str());
+}
+
+TEST(myBigInt, dividing_two_big_numbers_of_opposite_signs)
+{
+    std::ostringstream ss;
+
+    BigInt a{"-1341454265653767474686467"};
+    BigInt b{"135426537663573"};
+
+    a /= b;
+
+    ss << a;
+
+    EXPECT_EQ("-9905401768", ss.str());
+}
