@@ -377,3 +377,32 @@ TEST(myBigInt, dividing_two_big_numbers_of_opposite_signs)
 
     EXPECT_EQ("-9905401768", ss.str());
 }
+
+TEST(myBigInt, fourteen_modulus_four)
+{
+    std::ostringstream ss;
+
+    BigInt a{"14"};
+    BigInt b{"4"};
+
+    a %= b;
+
+    ss << a;
+
+    EXPECT_EQ("2", ss.str());
+}
+
+
+TEST(myBigInt, one_big_number_modulus_another)
+{
+    std::ostringstream ss;
+
+    BigInt a{"1341454265653767474686467"};
+    BigInt b{"135426537663573"};
+
+    a %= b;
+
+    ss << a;
+
+    EXPECT_EQ("46892891289403", ss.str());
+}

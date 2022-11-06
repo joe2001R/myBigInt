@@ -25,6 +25,7 @@ namespace mybigint
         BigInt& operator-=(const BigInt& rop);
         BigInt& operator*=(const BigInt& rop);
         BigInt& operator/=(const BigInt& rop);
+        BigInt& operator%=(const BigInt &ro);
         BigInt& operator-();
 
         BigInt operator<<(size_t shiftAmount) const;
@@ -43,6 +44,7 @@ namespace mybigint
     BigInt operator-(const BigInt& lo,const BigInt& ro);
     BigInt operator*(const BigInt& lo, const BigInt& ro);
     BigInt operator/(const BigInt &lo, const BigInt &ro);
+    BigInt operator%(const BigInt &lo, const BigInt &ro);
 
     BigInt operator-(const BigInt& op);
 

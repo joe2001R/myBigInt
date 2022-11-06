@@ -404,6 +404,16 @@ namespace mybigint
         return temp/=ro;
     }
 
+    BigInt operator%(const BigInt &lo, const BigInt &ro)
+    {
+        return lo - ro*(lo/ro);
+    }
+
+    BigInt& BigInt::operator%=(const BigInt &ro)
+    {
+        return (*this)=(*this%ro);
+    }
+
     bool operator==(const BigInt &lo, const BigInt &ro)
     {
         return isNull(ro - lo);
