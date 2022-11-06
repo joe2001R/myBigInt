@@ -1,1 +1,3 @@
 # mybigInt
+
+a simple implementation of BigInts in C++ ...
