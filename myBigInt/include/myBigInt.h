@@ -9,7 +9,6 @@ namespace mybigint
 {
     std::string DecToBinConverter(const std::string& number);
     std::string BinToDecConverter(const std::string& number);
-    std::vector<uint32_t> binStringToBinVec(const std::string& number);
 
 
     class BigInt

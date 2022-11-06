@@ -47,10 +47,6 @@ TEST(myBigInt, converting_from_bin_to_dec_7413)
     EXPECT_EQ("7413", BinToDecConverter("1110011110101"));
 }
 
-TEST(myBigInt, converting_bin_string_to_vec_string)
-{
-    EXPECT_EQ(7413, binStringToBinVec("1110011110101")[0]);
-}
 
 TEST(myBigInt,add_two_small_numbers)
 {

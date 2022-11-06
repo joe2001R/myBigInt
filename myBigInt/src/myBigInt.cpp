@@ -226,17 +226,6 @@ namespace mybigint
         return baseConverter(number,2,10);
     }
 
-    std::vector<uint32_t> binStringToBinVec(const std::string &number)
-    {
-        std::vector<uint32_t> res;
-        for(int endi=number.size()-1;endi>=0;endi-=32)
-        {
-            res.push_back(std::stoull(number.substr(std::max(0,endi-32),32),nullptr,2));
-        }
-
-        return res;
-    }
-
     BigInt& BigInt::operator-()
     {
         this->is_negative=!this->is_negative;
